@@ -20,11 +20,6 @@ I specialize in designing, optimizing, and deploying Deep Learning architectures
 * **[TBI Clinical Decision Support System](https://github.com/MarekCackowski/TBI)** - Multimodal triage system using TabNet, XGBoost, and Deep Learning routers.
 * **[Handwritten Text Recognition](https://github.com/MarekCackowski/Handwritten-Text-Recognition)** - ResNet-CRNN pipeline with Capsule Networks and ByT5 for adaptive semantic correction.
 
-### Certifications
-* Kaggle: Deep Learning
-* IBM: Docker Essentials
-* freeCodeCamp: Machine Learning with Python
-
 ---
 
 ### GitHub Dashboard
