@@ -1,16 +1,31 @@
-## Hi there 👋
+# Marek Cackowski
+**Junior Machine Learning Engineer | Data Scientist**
 
-<!--
-**MarekCackowski/MarekCackowski** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I specialize in designing, optimizing, and deploying Deep Learning architectures and classical ML models. I build smart pipelines that route typical cases to fast models, avoiding heavy computation where unnecessary.
 
-Here are some ideas to get you started:
+### Tech Stack
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/MinIO-C72026?style=for-the-badge&logo=minio&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Featured Projects
+* **[TBI Clinical Decision Support System](https://github.com/MarekCackowski/TBI)** - Multimodal triage system using TabNet, XGBoost, and Deep Learning routers.
+* **[Handwritten Text Recognition](https://github.com/MarekCackowski/Handwritten-Text-Recognition)** - ResNet-CRNN pipeline with Capsule Networks and ByT5 for adaptive semantic correction.
+
+### Certifications
+* 🥇 Kaggle: Deep Learning
+* 🥇 IBM: Docker Essentials
+* 🥇 freeCodeCamp: Machine Learning with Python
+
+---
+
+### GitHub Dashboard
+
+![GitHub Stats](https://github-stats-extended.vercel.app/api?username=MarekCackowski&show_icons=true&theme=radical)
+![Top Languages](https://github-stats-extended.vercel.app/api/top-langs/?username=MarekCackowski&layout=compact&theme=radical)
