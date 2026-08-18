@@ -21,9 +21,9 @@ I specialize in designing, optimizing, and deploying Deep Learning architectures
 * **[Handwritten Text Recognition](https://github.com/MarekCackowski/Handwritten-Text-Recognition)** - ResNet-CRNN pipeline with Capsule Networks and ByT5 for adaptive semantic correction.
 
 ### Certifications
-* 🥇 Kaggle: Deep Learning
-* 🥇 IBM: Docker Essentials
-* 🥇 freeCodeCamp: Machine Learning with Python
+* Kaggle: Deep Learning
+* IBM: Docker Essentials
+* freeCodeCamp: Machine Learning with Python
 
 ---
 
