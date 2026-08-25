@@ -25,4 +25,4 @@ I specialize in designing, optimizing, and deploying Deep Learning architectures
 ### GitHub Dashboard
 
 ![GitHub Stats](https://github-stats-extended.vercel.app/api?username=MarekCackowski&show_icons=true&theme=radical)
-![Top Languages](https://github-stats-extended.vercel.app/api/top-langs/?username=MarekCackowski&layout=compact&theme=radical)
+
