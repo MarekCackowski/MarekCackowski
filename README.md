@@ -21,8 +21,3 @@ I specialize in designing, optimizing, and deploying Deep Learning architectures
 * **[Handwritten Text Recognition](https://github.com/MarekCackowski/Handwritten-Text-Recognition)** - ResNet-CRNN pipeline with Capsule Networks and ByT5 for adaptive semantic correction.
 
 ---
-
-### GitHub Dashboard
-
-![GitHub Stats](https://github-stats-extended.vercel.app/api?username=MarekCackowski&show_icons=true&theme=radical)
-
