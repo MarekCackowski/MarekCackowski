@@ -19,7 +19,7 @@ I specialize in designing, optimizing, and deploying Deep Learning architectures
 
 * **[TBI Clinical Decision Support System](https://github.com/MarekCackowski/TBI)**  
   A multimodal triage architecture for ICU patients predicting physiological deterioration through a computationally optimized cognitive funnel:
-  * **Initial Rapid Screening (Tabular Cascade):** All patients are first evaluated by a high speed asymmetric tree ensemble (**XGBoost, TabNet, CatBoost**) that instantly processes EHR telemetry, resolving clear cut cases with minimal computational overhead.
+  * **Initial Rapid Screening (Tabular Cascade):** All patients are first evaluated by a high speed asymmetric tree ensemble (**XGBoost, LGBM, TabNet, CatBoost, BernoulliNB**) that instantly processes EHR telemetry, resolving clear cut cases with minimal computational overhead.
   * **Intermediate Phenotype Routing:** For borderline patients where standard trees lose confidence, an **Isolation Forest** and **GMM** step in. They soft cluster anomalies and route ambiguous cases to specialized, mathematical paradigms (Non-Linear SVM, MLP) for deeper profiling.
   * **On Demand Spatial Vision:** Reserved for the most complex, high risk cases. This computationally intensive stage deploys deep learning backbones (CRNN, EfficientNet, DenseNe+ViT) to extract structural pathologies directly from raw CT/MRI scans.
   * **Longitudinal Monitoring (Graphs & Bayes):** Operates continuously alongside the cascade. It utilizes **Graph Neural Networks** to model complex pharmacological interactions and a **Bayesian Trajectory Monitor** to track the patient's physiological risk decay over time.
