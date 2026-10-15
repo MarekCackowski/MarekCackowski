@@ -19,7 +19,7 @@ I specialize in designing, optimizing, and deploying Deep Learning architectures
 
 ### Featured Projects
 * **[TBI Clinical Decision Support System](https://github.com/MarekCackowski/TBI)**  
-  An advanced multimodal triage architecture for ICU patients designed to predict physiological deterioration. The system operates through a multi-stage pipeline:
+  An advanced multimodal triage architecture for ICU patients designed to predict physiological deterioration. The system operates through a multi stage pipeline:
   * **Vision Module:** Extracts spatial anomalies and clinical indicators from CT/MRI brain scans.
   * **Tabular & Time Series:** Analyzes EHR trajectories using an asymmetric tree ensemble and **GMM Phenotype Routers**.
   * **Drug Graphs:** Models complex pharmacological interactions and patient state changes using Graph Neural Networks.
