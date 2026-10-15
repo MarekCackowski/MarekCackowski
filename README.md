@@ -18,12 +18,12 @@ I specialize in designing, optimizing, and deploying Deep Learning architectures
 </p>
 
 * **[TBI Clinical Decision Support System](https://github.com/MarekCackowski/TBI)**  
-  An advanced multimodal triage architecture for ICU patients predicting physiological deterioration through a dynamic, step-by-step cognitive funnel:
-  * **Tabular Cascade (Phase 1):** All patients initially pass through a broad screening layer using an asymmetric tree ensemble designed to handle noisy EHR telemetry and minimize residuals on critical cases.
-  * **Phenotype Routing (Phase 2):** Because standard trees fail on complex borderline ICU cases, an **Isolation Forest** performs the first anomaly screening. A **Gaussian Mixture Model** then soft clusters the remaining ambiguous patients, dynamically delegating them to specialized mathematical paradigms (Non Linear SVM, LogReg+KNN, MLP).
-  * **Vision Module:** Simultaneously extracts spatial anomalies (mass effect, fractures, diffuse axonal injury) directly from raw CT/MRI brain scans.
-  * **Drug Graphs:** Models complex pharmacological interactions (e.g., sedatives vs. osmotherapy) and patient state changes using Graph Neural Networks.
-  * **Multimodal Fusion:** Aggregates visual, clinical, and graph embeddings into a final "Holistic Judge" that actively optimizes for maximum Negative Predictive Value (~95% NPV) to prevent missed fatalities.
+  A multimodal triage architecture for ICU patients predicting physiological deterioration through a computationally optimized cognitive funnel:
+  * **Initial Rapid Screening (Tabular Cascade):** All patients are first evaluated by a high speed asymmetric tree ensemble (**XGBoost, TabNet, CatBoost**) that instantly processes EHR telemetry, resolving clear cut cases with minimal computational overhead.
+  * **Intermediate Phenotype Routing:** For borderline patients where standard trees lose confidence, an **Isolation Forest** and **GMM** step in. They soft cluster anomalies and route ambiguous cases to specialized, mathematical paradigms (Non-Linear SVM, MLP) for deeper profiling.
+  * **On Demand Spatial Vision:** Reserved for the most complex, high risk cases. This computationally intensive stage deploys deep learning backbones (CRNN, EfficientNet, DenseNe+ViT) to extract structural pathologies directly from raw CT/MRI scans.
+  * **Longitudinal Monitoring (Graphs & Bayes):** Operates continuously alongside the cascade. It utilizes **Graph Neural Networks** to model complex pharmacological interactions and a **Bayesian Trajectory Monitor** to track the patient's physiological risk decay over time.
+  * **Multimodal Fusion:** Aggregates visual, clinical, and temporal embeddings into a final Holistic Judge that actively optimizes for maximum Negative Predictive Value (~95% NPV) to prevent missed fatalities.
 
 * **[Handwritten Text Recognition](https://github.com/MarekCackowski/Handwritten-Text-Recognition)**  
   An asynchronous HTR pipeline designed to process challenging, degraded handwriting through a multi stage cognitive cascade simulating human visual and cognitive reading processes.
