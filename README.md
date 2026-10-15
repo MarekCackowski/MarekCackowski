@@ -18,7 +18,17 @@ I specialize in designing, optimizing, and deploying Deep Learning architectures
 </p>
 
 ### Featured Projects
-* **[TBI Clinical Decision Support System](https://github.com/MarekCackowski/TBI)** - Multimodal triage system using TabNet, XGBoost, and Deep Learning routers.
-* **[Handwritten Text Recognition](https://github.com/MarekCackowski/Handwritten-Text-Recognition)** - ResNetCRNN pipeline with Capsule Networks and ByT5 for adaptive semantic correction.
+* **[TBI Clinical Decision Support System](https://github.com/MarekCackowski/TBI)**  
+  An advanced multimodal triage architecture for ICU patients designed to predict physiological deterioration. The system operates through a multi-stage pipeline:
+  * **Vision Module:** Extracts spatial anomalies and clinical indicators from CT/MRI brain scans.
+  * **Tabular & Time Series:** Analyzes clinical EHR trajectories using an asymmetric tree ensemble and **GMM Phenotype Routers**.
+  * **Drug Graphs:** Models complex pharmacological interactions and patient state changes using Graph Neural Networks.
+  * **Multimodal Fusion:** Aggregates visual, clinical, and graph embeddings for a holistic, high precision prognosis.
 
+* **[Handwritten Text Recognition](https://github.com/MarekCackowski/Handwritten-Text-Recognition)**  
+  A asynchronous HTR pipeline designed to process challenging, degraded handwriting through a multi stage cognitive cascade.
+  * **Dynamic Uncertainty Routing:** The system employs an `UncertaintyGatingAgent` and Monte Carlo Dropout to estimate predictive variance. Confident character predictions fast track through a **ResNetCRNN** baseline. Highly ambiguous characters are dynamically routed to **Capsule Networks** for rigorous geometric verification using Test Time Augmentation. 
+  * **Semantic Correction:** A fine tuned, character level **ByT5 Transformer** performs the final linguistic correction, analyzing the raw vision output alongside broader sentence context to fix OCR errors.
+  * **Scalable Infrastructure (Backend):** The system architecture decouples the API from heavy GPU inference. A lightweight **FastAPI** gateway delegates prediction tasks to **Celery** workers using **Redis**, which also handles real time WebSocket status streams. Document storage and generated PDFs are managed by **MinIO**, while user feedback and authentication are persisted securely in **MongoDB**.
+  * **Synthetic Generation & Polish Support:** Utilizes custom synthetic data generation pipelines to master complex Polish diacritics and simulate severe ink degradation.
 ---
