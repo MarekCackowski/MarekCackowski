@@ -38,7 +38,7 @@ I specialize in designing, optimizing, and deploying Deep Learning architectures
   * **On Demand Spatial Vision:** Reserved for the most complex cases, deploying deep learning backbones to extract structural pathologies directly from raw CT scans:
     * **ResNet50 + CRNN:** Multilabel classification of hemorrhages and tracking the 3D spatial dynamics of mass lesions across slices.
     * **DenseNet 3D + ViT:** Captures global spatial context across volumetric slices to instantly detect calvarial and skull base fractures.
-    * **UNet → EfficientNet:** Precision extraction of the corpus callosum to detect microscopic diffuse axonal injuries (DAI).
+    * **UNet → EfficientNet:** Precision extraction of the corpus callosum to detect microscopic diffuse axonal injuries.
 
   * **Holistic Judge & Longitudinal Monitoring:** Aggregates visual and clinical logits into a final Meta Judge that actively optimizes for maximum Negative Predictive Value (~95% NPV). Continuously supported by **Graph Neural Networks** modeling pharmacological interactions and a **Bayesian Trajectory Monitor** tracking physiological risk decay over time.
 
