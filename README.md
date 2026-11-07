@@ -13,7 +13,6 @@ I specialize in designing, optimizing, and deploying Deep Learning architectures
   <img src="https://img.shields.io/badge/SQL-003B57?style=flat&logo=mysql&logoColor=white" />
   <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=Redis&logoColor=white" />
-  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white" />
   <img src="https://img.shields.io/badge/MinIO-C72026?style=flat&logo=minio&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" />
 </p>
