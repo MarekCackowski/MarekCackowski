@@ -51,8 +51,8 @@
                                                              ▼                          │
                                                         Stage 4: 3D CT Vision           │
                                                              │                          │
-                                                             ▼                          ▼
-                    [GNN Drug Graphs + Bayesian Trajectories] ──▶ Stage 5: EBM Meta-Judge
+                                                             ▼                          │
+ [GNN Drug Graphs + Bayesian Trajectories] ──▶ Stage 5: EBM Meta-Judge ◀────────────────┘
 ```
 
 * **Core Impact:** Minimizes false negatives in critical care while avoiding unnecessary 3D volumetric inference on clear-cut patients.
