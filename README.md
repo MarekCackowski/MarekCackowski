@@ -92,7 +92,7 @@
                       ▼                                                                 │
                  Stage 2: Capsule Networks + TTA (Uncertain Char Crops)                 │
                       │ (Refined Chars + <unc> Tags)                                    │
-                      ▼                                                                 ▼
+                      ▼                                                                 │
                  Stage 3: ByT5 + Semantic Veto (Text Extracted from Previous Stages) ◀──┘
                       │
                       ▼
