@@ -9,14 +9,6 @@
 
 ---
 
-### Engineering Approach
-
-- **Compute-Aware Architectures:** Building multi-stage cascades and uncertainty routers instead of running expensive neural networks blindly on every sample.
-- **Multimodal & Hybrid Modeling:** Combining tabular ensembles, spatial 2D/3D computer vision, graph networks, and character-level transformers.
-- **Production-First Execution:** Decoupling lightweight APIs from heavy GPU inference via asynchronous workers, real-time WebSockets, and containerized storage.
-
----
-
 ### 🛠️ Tech Stack
 
 <p align="left">
@@ -32,6 +24,14 @@
   <img src="https://img.shields.io/badge/MinIO-C72026?style=flat-square&logo=minio&logoColor=white" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
 </p>
+
+---
+
+### Engineering Approach
+
+- **Compute-Aware Architectures:** Building multi-stage cascades and uncertainty routers instead of running expensive neural networks blindly on every sample.
+- **Multimodal & Hybrid Modeling:** Combining tabular ensembles, spatial 2D/3D computer vision, graph networks, and character-level transformers.
+- **Production-First Execution:** Decoupling lightweight APIs from heavy GPU inference via asynchronous workers, real-time WebSockets, and containerized storage.
 
 ---
 
