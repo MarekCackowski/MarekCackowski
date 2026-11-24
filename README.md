@@ -37,7 +37,7 @@
 ### Flagship Projects
 
 #### 1. [TBI Clinical Decision Support System](https://github.com/MarekCackowski/TBI)
-> **Multimodal ICU triage architecture predicting physiological deterioration through a 5-stage cognitive funnel optimized for ~95% Negative Predictive Value.**
+> **Multimodal ICU triage architecture predicting physiological deterioration through a 5-stage cognitive funnel engineered to not miss critical patients while the recovery window is still open.**
 
 ```text
 [EHR Telemetry] ──▶ Stage 1: Tabular NAS Ensemble (Fast Triage)
