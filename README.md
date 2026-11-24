@@ -85,17 +85,17 @@
 > **Asynchronous HTR pipeline designed to process challenging, degraded handwriting through a multi-stage cognitive cascade simulating human visual and cognitive reading processes.**
 
 ```text
-[Word Image] ──▶ Stage 1: ResNet-CRNN (Word-Level CTC Baseline)
-                      ├── (Confident Word — Skip CapsNet) ──────────────────────────────┐
-                      │ (High Variance / Ambiguous)                                     │
-                      ▼                                                                 │
-                 Stage 2: Capsule Networks + TTA (Uncertain Char Crops)                 │
-                      │ (Refined Chars + <unc> Tags)                                    │
-                      ▼                                                                 │
-                 Stage 3: ByT5 + Semantic Veto (Text Extracted from Previous Stages) ◀──┘
-                      │
-                      ▼
-                 [Final Verified Transcript]
+[Page Image] ──▶ Stage 1: Word Segmentation ──▶ Stage 2: ResNet-CRNN (CTC)
+                                                      ├── (Confident — Skip CapsNet) ───────────────┐
+                                                      │ (Low CTC Confidence / Ambiguous)            │
+                                                      ▼                                             │
+                                                 Stage 3: CRNN-Guided Char Crops & CapsNet + TTA    │
+                                                      │ (Refined Chars + <unc> Tags)                │
+                                                      ▼                                             │
+                                                 Stage 4: ByT5 + Semantic Veto (Prior Hypotheses)◀──┘
+                                                      │
+                                                      ▼
+                                                 [Final Verified Transcript]
 ```
 
 - **Core Impact:** Bridges word-level optical recognition, targeted geometric verification on uncertain character crops, and full-sentence language modeling inside a decoupled microservice architecture.
